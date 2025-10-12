@@ -1,6 +1,6 @@
 name = "Sundials_GPU_jll"
 uuid = "035518d0-5ae3-5af5-93bb-592bb84664f0"
-version = "7.4.1+0"
+version = "7.5.0+0"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
