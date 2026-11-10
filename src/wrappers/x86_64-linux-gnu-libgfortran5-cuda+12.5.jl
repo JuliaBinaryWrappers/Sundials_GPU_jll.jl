@@ -3,17 +3,15 @@ export libsundials_arkode, libsundials_core, libsundials_cvode, libsundials_cvod
 
 using CompilerSupportLibraries_jll
 using OpenBLAS32_jll
-using SuiteSparse32_jll
+using SuiteSparse_jll
 using CUDA_Runtime_jll
 JLLWrappers.@generate_wrapper_header("Sundials_GPU")
 JLLWrappers.@declare_library_product(libsundials_arkode, "libsundials_arkode.so.6")
-JLLWrappers.@declare_library_product(libsundials_core, "libsundials_core.so.7")
 JLLWrappers.@declare_library_product(libsundials_cvode, "libsundials_cvode.so.7")
 JLLWrappers.@declare_library_product(libsundials_cvodes, "libsundials_cvodes.so.7")
 JLLWrappers.@declare_library_product(libsundials_ida, "libsundials_ida.so.7")
 JLLWrappers.@declare_library_product(libsundials_idas, "libsundials_idas.so.6")
 JLLWrappers.@declare_library_product(libsundials_kinsol, "libsundials_kinsol.so.7")
-JLLWrappers.@declare_library_product(libsundials_nveccuda, "libsundials_nveccuda.so.7")
 JLLWrappers.@declare_library_product(libsundials_nvecmanyvector, "libsundials_nvecmanyvector.so.7")
 JLLWrappers.@declare_library_product(libsundials_nvecserial, "libsundials_nvecserial.so.7")
 JLLWrappers.@declare_library_product(libsundials_sunlinsolband, "libsundials_sunlinsolband.so.5")
@@ -31,17 +29,13 @@ JLLWrappers.@declare_library_product(libsundials_sunmatrixdense, "libsundials_su
 JLLWrappers.@declare_library_product(libsundials_sunmatrixsparse, "libsundials_sunmatrixsparse.so.5")
 JLLWrappers.@declare_library_product(libsundials_sunnonlinsolfixedpoint, "libsundials_sunnonlinsolfixedpoint.so.4")
 JLLWrappers.@declare_library_product(libsundials_sunnonlinsolnewton, "libsundials_sunnonlinsolnewton.so.4")
+JLLWrappers.@declare_library_product(libsundials_core, "libsundials_core.so.7")
+JLLWrappers.@declare_library_product(libsundials_nveccuda, "libsundials_nveccuda.so.7")
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, OpenBLAS32_jll, SuiteSparse32_jll, CUDA_Runtime_jll)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, OpenBLAS32_jll, SuiteSparse_jll, CUDA_Runtime_jll)
     JLLWrappers.@init_library_product(
         libsundials_arkode,
         "lib/libsundials_arkode.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libsundials_core,
-        "lib/libsundials_core.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
@@ -72,12 +66,6 @@ function __init__()
     JLLWrappers.@init_library_product(
         libsundials_kinsol,
         "lib/libsundials_kinsol.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libsundials_nveccuda,
-        "lib/libsundials_nveccuda.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
@@ -180,6 +168,18 @@ function __init__()
     JLLWrappers.@init_library_product(
         libsundials_sunnonlinsolnewton,
         "lib/libsundials_sunnonlinsolnewton.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libsundials_core,
+        "lib/libsundials_core.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libsundials_nveccuda,
+        "lib/libsundials_nveccuda.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

@@ -1,504 +1,154 @@
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "11.4"
-git-tree-sha1 = "bc652a50f478779f5bf4499a7da7f15b0b9d0b1e"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "f6ad13dacb2c48fea799d9a924bb2c9013bc81c1090e2690f7da45cc0aa88519"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+11.4.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "11.4"
-git-tree-sha1 = "157158572236fda48e1541f49ceaed676e51dc33"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "bace7a01108d435d2a9aadeefce508b31a2f7a163223de9d01000feb0881792f"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+11.4.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "11.4"
-git-tree-sha1 = "bcb376a7df61e0e1975f5b85f43834fb2447f7ee"
-lazy = true
+git-tree-sha1 = "2762d3e32d39926b207b1eab194c8374be1cb0b2"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "86a46cd1ff76c972d0a31b9d11aa386493937311c8f1e5ec8d979a7687bb1ce2"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+11.4.tar.gz"
+    sha256 = "11609c6b55131fe1f8b6d25d8d19b40268c3e1078b84eafe34d2edc609ba9dd4"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+11.4.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "11.5"
-git-tree-sha1 = "2810028e047203089707ec113374514a24916493"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "a5fbfedacfbf88c65a0b63c23b7831bb8205a0faee2db243de66ec7bd39d7c53"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+11.5.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "11.5"
-git-tree-sha1 = "6016666098455f84e851f738560836a38654f6e4"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "f004c83985e48c44037ddbf900ff5a4912e65755d7449827a00e977bf0442cbe"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+11.5.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "11.5"
-git-tree-sha1 = "5ea746c0fbaba8fa081a866827ce511030f46b47"
-lazy = true
+git-tree-sha1 = "9e1c0a0e644fed335f735b4ca5a7819ce686a8b6"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "dc1bcbd1efcbd89a00460ecfe41075dd0e93b7147cff3836a47e209e2bdc4421"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+11.5.tar.gz"
+    sha256 = "94a7125294f3e90eda5f2c2521a087b5e1f0262df38f305d8d26627a380f5dbd"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+11.5.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "11.6"
-git-tree-sha1 = "ba6c7a11699a8bc296c7058256746bb1ff7218f7"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "abc207219d0349e219f970116bce6c584135bc91561549cbcb600e05cc520739"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+11.6.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "11.6"
-git-tree-sha1 = "ca3348ae99a67f80e947cc69b7eb799e45091ea6"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "02c2ed2174d2fe8b1d60fddd91718e00ccab74b3839d23606572ef29f10eaf6a"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+11.6.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "11.6"
-git-tree-sha1 = "8d4484e9507992194420543746b0a1dc1b70ff3c"
-lazy = true
+git-tree-sha1 = "93a6f77e40c5a7126bfee8c76187fbe4d29b757e"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "5de069757f5fecdf0b93e0ae18fc710c0b4ccfff201df3f77cf741278c8fd289"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+11.6.tar.gz"
+    sha256 = "59e24172618fd49a7e0afaa2724328ebe5705c3c730a8803e40e2cf87e3e8818"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+11.6.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "11.7"
-git-tree-sha1 = "9ed319ad156edbc2451b7b67d17f70771e8e006d"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "6444d4fa4ed6a4057c74b2a2ce60769fd75d1945c98e1264a11f74aee1b43207"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+11.7.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "11.7"
-git-tree-sha1 = "40d3ca068f0e23a063fb4a4386caab711495e86e"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "7fcedd0dc8ec6f37143395ffec4adbf2e478f54f891844b1bc13968340cfbe41"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+11.7.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "11.7"
-git-tree-sha1 = "7307f75d8437c657a95eb19cb78f7209d6de446d"
-lazy = true
+git-tree-sha1 = "ca3ffc823b8a7de6ac75b2bfc9e8735902373a7a"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "c01c0e10cd6c3ab5ef857696b8f2fd0dbb1b4878174694561deae74e9498acaa"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+11.7.tar.gz"
+    sha256 = "d776bbddab1a60cd7396cd1bb7273fd9d44cc9bac5918f381bbc426344d16ef5"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+11.7.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "11.8"
-git-tree-sha1 = "c2655f53356c7efaa601ef4c4c46bddbc01b5c4d"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "8081b477f50a6591823fd60feb5698b2495996c32699aada6e14faa83be2a8eb"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+11.8.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "11.8"
-git-tree-sha1 = "785d185d64c3ce4facec72fdffc3029d86f835fc"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "394f98052526340630b149af94a6485b79bfe89dca5c865943603873a61de6ef"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+11.8.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "11.8"
-git-tree-sha1 = "bb76f9f7b7b2c713238ef38ccd91cec55f14a336"
-lazy = true
+git-tree-sha1 = "93068872fc273bdda07f732c96f548ac4053e085"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "86be835196c506d35933511309c8854543de14f859ade05644b24ea542e84499"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+11.8.tar.gz"
+    sha256 = "1b5ee37de49d0fbb2adbae37582c339610aff4b5b8dad79e7c595b38ebcd2ed9"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+11.8.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "12.0"
-git-tree-sha1 = "c26513f42c04e98c09d4e2a61a21afd2e095f973"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "a7c15a804ffdac57bc10808515eacba3e8dc601c22fec808152c57a153815afc"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+12.0.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.0"
-git-tree-sha1 = "4efb6fcc5a89154a558446286a9148f38f7a3e29"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "c1ad306350e37857afa78ccfdf0a6a38a14740afe25322510fe10f1b4dcb9f32"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+12.0.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.0"
-git-tree-sha1 = "fa0ab4822a17894cfd7e1619dd3df5f5745f5067"
-lazy = true
+git-tree-sha1 = "e8fa0ece4336fa18103d5ca55eb7cfd491d91a68"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "00de17e93d861f1d78d67fac1f78cae1139205fc48dda65a0fcf13b51e3a0ec6"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+12.0.tar.gz"
+    sha256 = "4ebe48800a4157a04d65a88ffb2f63ecbb0bca31c674c1f9cc9b6860893718f9"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+12.0.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "12.1"
-git-tree-sha1 = "b6e6a2699f3f77dd6c9b10f8c3d2ac5a96d57111"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "8169413643f463c2b87adc7280cb29c0f805ad9236c1f475caf816f0dbf8030a"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+12.1.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.1"
-git-tree-sha1 = "f95506d1bfff7e92af3d428d6c3a442d040937fe"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "de6808f0be28d56d6fb2252d17c12bb47ef0f198aed6b37716f23b8817750446"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+12.1.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.1"
-git-tree-sha1 = "4cee46ebe88585846a97fc550fb5e11bad21ed4e"
-lazy = true
+git-tree-sha1 = "63d332085ed06b7e088cfa04ce1ace98e174b2fc"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "70a3ee7dcbc24f801d2902484b9231e07a6ac22cb0a02616faef8034b0f086d0"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+12.1.tar.gz"
+    sha256 = "3b9522f2006a6fe530cfb60d108ebb86d6ee55e3985d63eef5d3a0fa5be7ec43"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+12.1.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "12.2"
-git-tree-sha1 = "280328e4b7ef9c38c66d2526f1107f1590f6b337"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "420150e5f4e212651e78804266e88643eaf1f2d831fee6c13b410227794fbc55"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+12.2.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.2"
-git-tree-sha1 = "81c9fb86a9e8883e19625a26c28c7c76a2977166"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "2399ed97169bb8e640b390f505784c2bd70519da0b8b492f6d93997fb30c8363"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+12.2.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.2"
-git-tree-sha1 = "1d1fe607f28be1c0d1bfd66c158fa6cef9fa1d8b"
-lazy = true
+git-tree-sha1 = "a8f0716e123859e1aac8713db8c5544de6c8fe70"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "4cacecce599d2d3d09f986275059685a5f8a3f01ea494a9ae96d156fded20a27"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+12.2.tar.gz"
+    sha256 = "ac1a8f33666fedc6474d00d2301b7636094c353dd697c3b8824ccac75bb676db"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+12.2.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "12.3"
-git-tree-sha1 = "8d1d62e0e79467d412257c546770157d521d602f"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "5e1f0e20eefae2c744fd9c8c70d858b2bcaaf91e5a480f532b3ba9aa4d574fee"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+12.3.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.3"
-git-tree-sha1 = "358b1249a0bd542ceb955ae63947a439a6ebd172"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "5e07a313451f2149ccdf3878d10c6134d98f9b4aed0c8dbd47f53f4b7ddd1081"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+12.3.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.3"
-git-tree-sha1 = "2ef263a097c0e5a1b3f801f75a1144deaefbc59f"
-lazy = true
+git-tree-sha1 = "19d3555653f7b51e05ed61fd6499d7de595b2f28"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "0d80b88d52d071b155fdad36b643ffb256fbd1df91870953dd2f9a31ac62d127"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+12.3.tar.gz"
+    sha256 = "4334198346693cbb3f86158fc0b8bda6eccd730f8f79b9da7faa6635e62bfdaa"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+12.3.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "12.4"
-git-tree-sha1 = "5c9087f7c869c9df1f0a4cf05babb1cb901f4347"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "27faa8021e4115f91590d3540678fea4fe87cdf0351ce71681ec6468d83a3d5a"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+12.4.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.4"
-git-tree-sha1 = "9e6060d6dd4ad9bde197c21ead7a9273a7e6aad3"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "336e613fdef009ab95fa4934a73b24332682ec6ba65630aeb593e82e9136a151"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+12.4.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.4"
-git-tree-sha1 = "2327c25d788ddb109fc0d3eea702217ba7b3572b"
-lazy = true
+git-tree-sha1 = "083366c14865608e82d70383cfd6b09fc3c00b60"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "65296bd9d08a56ee54c28b2e8954d1327580689d96012a8e86904922dff9792f"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+12.4.tar.gz"
+    sha256 = "b81a3a01fff23a0134f09fcbd340b0fc0dca1f691af6a6b5783f6a0cbd06736c"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+12.4.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "12.5"
-git-tree-sha1 = "f3f462b5556408926523c234be8bd9a66c046774"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "c1abc1fae9e2661aaee97aebbb5e49f39b4d82ef73a74a24030530d41bc28e99"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+12.5.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.5"
-git-tree-sha1 = "4337ffb389c03cf1f8a8ba278e88f630e8e321ba"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "c6cb184e84c6fb0cbb7481fae6eeb9c420d7e5fa642b30438402c15f2df49626"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+12.5.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.5"
-git-tree-sha1 = "b3076a73afd71195f6c7d741261b16a47d4470a3"
-lazy = true
+git-tree-sha1 = "ace5d99c4dd5a7dffc3214148fe080ad91605173"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "259fc616145130a1cfc2f0a92764bdffdbdc187b859b01266617197a750a3683"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+12.5.tar.gz"
+    sha256 = "cdc95f0dfb5e8e9a741a8d2d146ab001194e0bb2318d516be48f584dbbc134c7"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+12.5.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "12.6"
-git-tree-sha1 = "487589576d9a287f5d4aacd7c52488715c58b496"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "09b821175df15b4f0e0f15ceb6cee98947f89579e9ce2da2569c2c5de4c3bf42"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+12.6.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.6"
-git-tree-sha1 = "a4703f46af429549df9b294c498b87f99018148b"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "66122d9310898cd431f07e6cd7768c252a3e4a80ef2677b67fdfed1bd822ae33"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+12.6.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.6"
-git-tree-sha1 = "c4c51e5de59fec834e6921b148adda64b8509594"
-lazy = true
+git-tree-sha1 = "45a9329d32786c0f8835b7e701911b7e6309970e"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "c6e8d6a903be1c15280e9db884f04db64f5a4bcbefe82265cce203c375255262"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+12.6.tar.gz"
+    sha256 = "a62c267d678bacacf26c05fae3c4ef2849abec7db6e3e917e50fd34c5c616e5d"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+12.6.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "12.8"
-git-tree-sha1 = "9503dd91ddf769fd923260910290c6f50695f682"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "095dae288c1ae8aeaca958c760403944cb22c8ad791944bf303868d957e047f3"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+12.8.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.8"
-git-tree-sha1 = "356949d4f9e06a5fa520ea4643c239bec7d855c7"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "7e263eba94b6ef49873815d97e8e7ba939f90929e2be863cc0310260bdbe7851"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+12.8.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.8"
-git-tree-sha1 = "b0ce0ddb4ffe0af75d3c6f93356cca2b7010b5cd"
-lazy = true
+git-tree-sha1 = "5975de0aa09b7742dd8669e8b4181a2a20db2614"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "eeecea7c835e6cfb1569c104fe059edff65e8e56cb061abdf15e3add2aa823a8"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+12.8.tar.gz"
+    sha256 = "ee169fb7d6a132c31f103340a69e59495942fef12253f1f028188b0fcfeb83ed"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+12.8.tar.gz"
 [[Sundials_GPU]]
 arch = "x86_64"
 cuda = "12.9"
-git-tree-sha1 = "f9681ebd51b923e259a129490a4d4dbaf1ff0f72"
-lazy = true
-libc = "glibc"
-libgfortran_version = "3.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "d58b6aba9806d6e11ed2e6653962508612c2c7c22e46233de086aab82ff4eb77"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran3-cuda+12.9.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.9"
-git-tree-sha1 = "ba602f08a2408fc387f4f068bdb29eeb38c722d9"
-lazy = true
-libc = "glibc"
-libgfortran_version = "4.0.0"
-os = "linux"
-
-    [[Sundials_GPU.download]]
-    sha256 = "4f624d658440ee9f52741b9469a78da28d8bf3e19d17fce800d1ab6e0092fa58"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran4-cuda+12.9.tar.gz"
-[[Sundials_GPU]]
-arch = "x86_64"
-cuda = "12.9"
-git-tree-sha1 = "0760977a8d1fa7d5d801d62a8c614fd70ca43e91"
-lazy = true
+git-tree-sha1 = "454b77148e36c27e14bf5677c3222722ab466752"
 libc = "glibc"
 libgfortran_version = "5.0.0"
 os = "linux"
 
     [[Sundials_GPU.download]]
-    sha256 = "396a33a3e405a6241f8837b7ec753dd070633ca53406fd01355510d6e87e0458"
-    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.0+0/Sundials_GPU.v7.5.0.x86_64-linux-gnu-libgfortran5-cuda+12.9.tar.gz"
+    sha256 = "2bd91512378ef8cd628e3d6556bf35dc397e2c6789d73d642b24814132383840"
+    url = "https://github.com/JuliaBinaryWrappers/Sundials_GPU_jll.jl/releases/download/Sundials_GPU-v7.5.1+0/Sundials_GPU.v7.5.1.x86_64-linux-gnu-libgfortran5-cuda+12.9.tar.gz"
