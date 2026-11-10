@@ -1,21 +1,21 @@
-version = "7.5.1+0"
+version = "7.9.0+0"
 name = "Sundials_GPU_jll"
 uuid = "035518d0-5ae3-5af5-93bb-592bb84664f0"
 
 [deps]
 SuiteSparse_jll = "bea87d4a-7f5b-5778-9afe-8cc45184846c"
 Libdl = "8f399da3-3557-5675-b5ff-fb832c97cbdb"
-OpenBLAS32_jll = "656ef2d0-ae68-5445-9ca0-591084a874a2"
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
+libblastrampoline_jll = "8e850b90-86db-534c-a0d3-1478176c7d93"
 CUDA_Runtime_jll = "76a88914-d11a-5bdc-97e0-2f5a05c973a2"
 Artifacts = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 TOML = "fa267f1f-6049-4f14-aa54-33bafae1ed76"
-CompilerSupportLibraries_jll = "e66e0078-7015-5450-92f7-15fbd957f2ae"
 
 [compat]
 SuiteSparse_jll = "7.2.1"
 Libdl = "< 0.0.1, 1"
 julia = "1.10"
 JLLWrappers = "1.7.0"
+libblastrampoline_jll = "5.8.0"
 Artifacts = "< 0.0.1, 1"
 TOML = "< 0.0.1, 1"
